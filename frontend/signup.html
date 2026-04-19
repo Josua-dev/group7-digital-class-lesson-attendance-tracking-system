@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up - NUST Attendance</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <div class="auth-page">
+        <div class="auth-info">
+            <div class="brand-badge">NUST Attendance</div>
+            <h1>Create Your Account</h1>
+            <p>
+                Register as a student or lecturer to access the attendance platform.
+            </p>
+        </div>
+
+        <div class="auth-card">
+            <h2>Sign Up</h2>
+
+            <form action="auth/signup.php" method="POST">
+                <div class="input-row">
+                    <input name="first_name" placeholder="First Name" required>
+                    <input name="last_name" placeholder="Last Name" required>
+                </div>
+
+                <div class="input-row">
+                    <select name="gender" required>
+                        <option value="">Gender</option>
+                        <option value="Male">Male</option>
+                        <option value="Female">Female</option>
+                    </select>
+
+                    <select name="role" required>
+                        <option value="">Role</option>
+                        <option value="student">Student</option>
+                        <option value="lecturer">Lecturer</option>
+                    </select>
+                </div>
+
+                <input name="number" placeholder="Student/Lecturer Number" required>
+                <input type="password" name="password" placeholder="Password" required>
+
+                <button class="btn" type="submit">Create Account</button>
+            </form>
+
+            <p class="auth-link">
+                Already have an account?
+                <a href="index.html">Login</a>
+            </p>
+        </div>
+    </div>
+</body>
+</html>

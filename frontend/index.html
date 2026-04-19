@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - NUST Attendance</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <div class="auth-page">
+        <div class="auth-info">
+            <div class="brand-badge">NUST Attendance</div>
+            <h1>Smart QR Attendance Tracking</h1>
+            <p>
+                A simple web-based attendance system for students and lecturers.
+                Log in to scan QR codes, generate session QR codes, and manage attendance records.
+            </p>
+        </div>
+
+        <div class="auth-card">
+            <h2>Login</h2>
+
+            <div id="messageBox" class="message-box hidden"></div>
+
+            <div class="input-row">
+                <input id="number" placeholder="Student/Lecturer Number">
+                <input id="password" type="password" placeholder="Password">
+            </div>
+
+            <button class="btn" onclick="login()">Login</button>
+
+            <p class="auth-link">
+                Don’t have an account?
+                <a href="signup.html">Sign Up</a>
+            </p>
+        </div>
+    </div>
+
+    <script src="assets/js/login.js"></script>
+</body>
+</html>
