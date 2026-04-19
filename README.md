@@ -154,22 +154,19 @@ Testing includes:
 
 ---
 
-## License
-This project is for academic purposes.
-
----
 
 ## Contributors
 
-- Backend Developers
-- Frontend Developers
-- Tester (QA)
-- Scrum Master
+Natasha Chilinda	221143122
 
----
+Chamelda Gertze	224022024
 
-## Status
-✔ Completed  
-✔ Fully Tested  
-✔ Ready for Submission  
-If you want to level this up (high marks)
+Hermaine Kharugas	224001833
+
+Josua Uuyuni	223064831
+
+Kuiiri Hengari	220125384
+
+Jordan Hashikuni	224081306
+
+
