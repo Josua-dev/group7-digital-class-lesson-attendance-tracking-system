@@ -12,7 +12,7 @@ The system ensures:
 ---
 
 ## Features
-
+ 
 ### Authentication
 - Student and Lecturer signup
 - Login and logout functionality
