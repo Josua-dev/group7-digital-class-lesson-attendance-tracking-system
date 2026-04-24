@@ -1,4 +1,4 @@
-# QR Code Attendance Tracking System
+# QR Code Attendance Tracking System 
 
 ## Overview
 The QR Code Attendance Tracking System is a web-based application that allows lecturers to generate QR codes for sessions and enables students to scan them to mark attendance.
